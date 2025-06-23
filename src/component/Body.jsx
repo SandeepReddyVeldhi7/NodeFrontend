@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
-import NavBar from "./NavBar";
+
 import { Outlet, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { addUser } from "./utils/userSlice";
+import { addUser } from "../utils/userSlice";
+import NavBar from "./NavBar";
 
 const Body = () => {
 const dispatch=useDispatch()
